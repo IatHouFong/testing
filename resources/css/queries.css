@@ -2,7 +2,6 @@
 @media only screen and (max-width: 1200px) {
     .hero-text-box {
         width: 100%;
-        /*padding: 0 2%;*/
         
     }
     
@@ -14,7 +13,6 @@
     
     .hero-text-box {
         width: 100%;
-        /*padding: 0 2%;*/
     }
     
     .row { padding: 0 2%; }
@@ -59,17 +57,13 @@
 @media only screen and (max-width: 767px) {
     .hero-text-box {
         width: 100%;
-        /*padding: 0 2%;*/
     }
     
-    .row { padding: 0 2%; }
+    .row { padding: 0 10%;}
     
     body { font-size: 16px; }
     section { padding: 30px 0; }
-    /*
-    .row,
-    .hero-text-box{ padding: 0 4%; }
-    */
+
     .col { width: 100%; }
     
     .main-nav { display: none; }
@@ -125,16 +119,24 @@
     
     .works-step { margin-bottom: 30px; }
     .works-step:last-of-type { margin-bottom: 30px; }
+    
+    .footer-nav{
+        padding-left: 45px;
+    }
+    
+    .social-icons{
+        padding-top: 15px;
+        padding-right: 95px;
+    }
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     .hero-text-box {
         width: 100%;
-        /*padding: 0 2%;*/
     }
     
-    .row { padding: 0 2%; }
+    .row { padding: 0 10%; }
     
     section { padding: 25px 0;}
     .contact-form { width: 100%; }
